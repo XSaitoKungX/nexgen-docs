@@ -288,7 +288,7 @@ export namespace DefaultTheme {
     /**
      * Pattern for edit link.
      *
-     * @example 'https://github.com/vuejs/vitepress/edit/main/docs/:path'
+     * @example 'https://github.com/XSaitoKungX/vitepress/edit/main/docs/:path'
      * @example ({ filePath }) => { ... }
      */
     pattern: string | ((payload: PageData) => string)

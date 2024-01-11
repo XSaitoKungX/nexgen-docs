@@ -1,10 +1,10 @@
 # Markdown Extension Examples
 
-This page demonstrates some of the built-in markdown extensions provided by VitePress.
+This page demonstrates some of the built-in markdown extensions provided by NexGen-Nexus.
 
 ## Syntax Highlighting
 
-VitePress provides Syntax Highlighting powered by [Shikiji](https://github.com/antfu/shikiji), with additional features like line-highlighting:
+NexGen-Nexus provides Syntax Highlighting powered by [Shikiji](https://github.com/antfu/shikiji), with additional features like line-highlighting:
 
 **Input**
 

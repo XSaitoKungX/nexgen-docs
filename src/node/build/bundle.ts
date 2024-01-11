@@ -34,7 +34,7 @@ const excludedModules = [
   clientDir
 ]
 
-// bundles the VitePress app for both client AND server.
+// bundles the NexGen-Nexus app for both client AND server.
 export async function bundle(
   config: SiteConfig,
   options: BuildOptions

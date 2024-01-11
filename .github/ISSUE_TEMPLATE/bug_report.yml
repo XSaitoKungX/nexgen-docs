@@ -6,7 +6,7 @@ body:
     attributes:
       value: |
         "Thanks for taking the time to fill out this bug report!
-        VitePress is still WIP, and it is not compatible with VuePress.
+        NexGen-Nexus is still WIP, and it is not compatible with VuePress.
         Please do not open issue about default theme missing features or something doesn't work like VuePress."
   - type: textarea
     id: bug-description
@@ -52,7 +52,7 @@ body:
       label: Validations
       description: Before submitting the issue, please make sure you do the following
       options:
-        - label: Check if you're on the [latest VitePress version](https://github.com/vuejs/vitepress/releases/latest).
+        - label: Check if you're on the [latest NexGen-Nexus version](https://github.com/XSaitoKungX/vitepress/releases/latest).
           required: true
         - label: Follow our [Code of Conduct](https://vuejs.org/about/coc.html)
           required: true

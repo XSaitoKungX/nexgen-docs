@@ -3,7 +3,7 @@ import type { App } from 'vue'
 import type { Router } from './router'
 import type { VitePressData } from './data'
 
-const COMPONENT_STATE_TYPE = 'VitePress'
+const COMPONENT_STATE_TYPE = 'NexGen-Nexus'
 
 export const setupDevtools = (
   app: App,
@@ -15,7 +15,7 @@ export const setupDevtools = (
       // fix recursive reference
       app: app as any,
       id: 'org.vuejs.vitepress',
-      label: 'VitePress',
+      label: 'NexGen-Nexus',
       packageName: 'vitepress',
       homepage: 'https://vitepress.dev',
       componentStateTypes: [COMPONENT_STATE_TYPE]

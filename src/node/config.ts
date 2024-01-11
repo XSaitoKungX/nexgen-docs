@@ -241,9 +241,9 @@ export async function resolveSiteData(
   return {
     lang: userConfig.lang || 'en-US',
     dir: userConfig.dir || 'ltr',
-    title: userConfig.title || 'VitePress',
+    title: userConfig.title || 'NexGen-Nexus',
     titleTemplate: userConfig.titleTemplate,
-    description: userConfig.description || 'A VitePress site',
+    description: userConfig.description || 'A NexGen-Nexus site',
     base: userConfig.base ? userConfig.base.replace(/([^/])$/, '$1/') : '/',
     head: resolveSiteDataHead(userConfig),
     router: {

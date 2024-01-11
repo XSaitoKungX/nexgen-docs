@@ -169,7 +169,7 @@ export async function renderPage(
         ? ''
         : `<meta name="description" content="${description}">`
     }
-    <meta name="generator" content="VitePress v${version}">
+    <meta name="generator" content="NexGen-Nexus v${version}">
     ${stylesheetLink}
     ${metadataScript.inHead ? metadataScript.html : ''}
     ${

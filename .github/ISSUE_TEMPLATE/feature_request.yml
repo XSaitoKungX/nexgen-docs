@@ -39,7 +39,7 @@ body:
           required: true
         - label: Read the [docs](https://vitepress.dev).
           required: true
-        - label: Read the [Contributing Guidelines](https://github.com/vuejs/vitepress/blob/main/.github/contributing.md).
+        - label: Read the [Contributing Guidelines](https://github.com/XSaitoKungX/vitepress/blob/main/.github/contributing.md).
           required: true
         - label: Check that there isn't already an issue that asks for the same feature to avoid creating a duplicate.
           required: true

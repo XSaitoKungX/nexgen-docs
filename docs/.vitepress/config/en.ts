@@ -6,24 +6,25 @@ const pkg = require('vitepress/package.json')
 
 export const en = defineConfig({
   lang: 'en-US',
-  description: 'Vite & Vue powered static site generator.',
+  description: 'Made with Vite & Vue',
 
   themeConfig: {
     nav: nav(),
 
     sidebar: {
-      '/guide/': { base: '/guide/', items: sidebarGuide() },
-      '/reference/': { base: '/reference/', items: sidebarReference() }
+      '/nexgen-nexus/': { base: '/nexgen-nexus/', items: sidebarGuide() },
     },
 
+    /*
     editLink: {
-      pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
+      pattern: 'https://github.com/XSaitoKungX/vitepress/edit/main/docs/:path',
       text: 'Edit this page on GitHub'
     },
+    */
 
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2019-present Evan You'
+      copyright: 'Copyright © 2019-present Evan You. Modifications by <a href="https://nexgen-nexus.net" target="_blank">NexGen-Nexus Hosting</a>'
     }
   }
 })
@@ -31,25 +32,20 @@ export const en = defineConfig({
 function nav(): DefaultTheme.NavItem[] {
   return [
     {
-      text: 'Guide',
-      link: '/guide/what-is-vitepress',
-      activeMatch: '/guide/'
+      text: 'Docs',
+      link: '/nexgen-nexus/welcome',
+      activeMatch: '/nexgen-nexus/'
     },
     {
-      text: 'Reference',
-      link: '/reference/site-config',
-      activeMatch: '/reference/'
-    },
-    {
-      text: pkg.version,
+      text: "Change Logs",
       items: [
         {
           text: 'Changelog',
-          link: 'https://github.com/vuejs/vitepress/blob/main/CHANGELOG.md'
+          link: 'https://github.com/XSaitoKungX/vitepress/blob/main/CHANGELOG.md'
         },
         {
           text: 'Contributing',
-          link: 'https://github.com/vuejs/vitepress/blob/main/.github/contributing.md'
+          link: 'https://github.com/XSaitoKungX/vitepress/blob/main/.github/contributing.md'
         }
       ]
     }
@@ -62,7 +58,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       text: 'Introduction',
       collapsed: false,
       items: [
-        { text: 'What is VitePress?', link: 'what-is-vitepress' },
+        { text: 'Welcome to our Docs', link: 'welcome' },
         { text: 'Getting Started', link: 'getting-started' },
         { text: 'Routing', link: 'routing' },
         { text: 'Deploy', link: 'deploy' }
@@ -101,7 +97,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
         { text: 'Sitemap Generation', link: 'sitemap-generation' }
       ]
     },
-    { text: 'Config & API Reference', base: '/reference/', link: 'site-config' }
+    { text: 'Public Bot', base: '/public/', link: 'vortex' }
   ]
 }
 

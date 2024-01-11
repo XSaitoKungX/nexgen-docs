@@ -37,13 +37,13 @@ const getPackageManger = () => {
 }
 
 export async function init() {
-  intro(bold(cyan('Welcome to VitePress!')))
+  intro(bold(cyan('Welcome to NexGen-Nexus!')))
 
   const options: ScaffoldOptions = await group(
     {
       root: () =>
         text({
-          message: 'Where should VitePress initialize the config?',
+          message: 'Where should NexGen-Nexus initialize the config?',
           initialValue: './',
           validate(value) {
             // TODO make sure directory is inside
@@ -59,7 +59,7 @@ export async function init() {
       description: () =>
         text({
           message: 'Site description:',
-          placeholder: 'A VitePress Site'
+          placeholder: 'A NexGen-Nexus Site'
         }),
 
       theme: () =>
@@ -92,7 +92,7 @@ export async function init() {
 
       injectNpmScripts: () =>
         confirm({
-          message: 'Add VitePress npm scripts to package.json?'
+          message: 'Add NexGen-Nexus npm scripts to package.json?'
         })
     },
     {
@@ -109,7 +109,7 @@ export async function init() {
 export function scaffold({
   root = './',
   title = 'My Awesome Project',
-  description = 'A VitePress Site',
+  description = 'A NexGen-Nexus Site',
   theme,
   useTs,
   injectNpmScripts

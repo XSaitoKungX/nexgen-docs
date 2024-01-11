@@ -13,7 +13,7 @@
 
 ### External Links
 
-[VitePress on GitHub](https://github.com/vuejs/vitepress)
+[NexGen-Nexus on GitHub](https://github.com/XSaitoKungX/vitepress)
 
 ## GitHub-Style Tables
 
@@ -64,7 +64,7 @@ Danger zone, do not proceed
 
 ::: details Click me to view the code
 ```js
-console.log('Hello, VitePress!')
+console.log('Hello, NexGen-Nexus!')
 ```
 :::
 
@@ -91,7 +91,7 @@ export default {
       msg: `Highlighted!
       This line isn't highlighted,
       but this and the next 2 are.`,
-      motd: 'VitePress is awesome',
+      motd: 'NexGen-Nexus is awesome',
       lorem: 'ipsum',
     }
   }

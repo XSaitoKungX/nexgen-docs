@@ -1,6 +1,6 @@
-# VitePress Contributing Guide
+# NexGen-Nexus Contributing Guide
 
-Hi! We're really excited that you are interested in contributing to VitePress. Before submitting your contribution, please make sure to take a moment and read through the following guidelines:
+Hi! We're really excited that you are interested in contributing to NexGen-Nexus. Before submitting your contribution, please make sure to take a moment and read through the following guidelines:
 
 - [Code of Conduct](https://github.com/vuejs/vue/blob/dev/.github/CODE_OF_CONDUCT.md)
 - [Pull Request Guidelines](#pull-request-guidelines)
@@ -34,9 +34,9 @@ $ pnpm install
 $ pnpm simple-git-hooks
 ```
 
-### Setup VitePress Dev Environment
+### Setup NexGen-Nexus Dev Environment
 
-The easiest way to start testing out VitePress is to tweak the VitePress docs. You may run `pnpm run docs` to boot up VitePress documentation site locally, with live reloading of the source code.
+The easiest way to start testing out NexGen-Nexus is to tweak the NexGen-Nexus docs. You may run `pnpm run docs` to boot up NexGen-Nexus documentation site locally, with live reloading of the source code.
 
 ```sh
 $ pnpm run docs
@@ -44,7 +44,7 @@ $ pnpm run docs
 
 After executing the above command, visit http://localhost:5173 and try modifying the source code. You'll get live update.
 
-If you don't need docs site up and running, you may start VitePress local dev environment with `pnpm run dev`.
+If you don't need docs site up and running, you may start NexGen-Nexus local dev environment with `pnpm run dev`.
 
 ```sh
 $ pnpm run dev

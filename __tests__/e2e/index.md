@@ -1,11 +1,11 @@
 ---
 layout: home
 
-title: VitePress
+title: NexGen-Nexus
 
 hero:
-  name: VitePress
-  text: Vite & Vue Powered Static Site Generator
+  name: NexGen-Nexus
+  text: Made with Vite & Vue
   actions:
     - theme: brand
       text: Examples
@@ -19,14 +19,14 @@ features:
     details: SVG on features section
     icon:
       src: /vitepress.svg
-      alt: VitePress Logo
+      alt: NexGen-Nexus Logo
   - title: PNG
     details: PNG on features section
     icon:
       src: /vitepress.png
       width: 48
       height: 48
-      alt: VitePress Logo
+      alt: NexGen-Nexus Logo
   - title: Dark/Light SVG
     details: Dark/Light SVG on features section
     icon:
